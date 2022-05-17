@@ -15,5 +15,5 @@ const GenreScheme = new mongoose.Schema(
   }
 );
 
-module.exports = mongoose.model("genre", UserScheme);
+module.exports = mongoose.model("genre", GenreScheme);
 

@@ -34,3 +34,15 @@ const UserScheme = new mongoose.Schema(
 );
 
 module.exports = mongoose.model("videogame", UserScheme);
+
+/* const a = {
+  "name": "Elden Ring",
+  "released": "2020-04-12",
+  "background_image": "https://www.google.com.ar/jkasdhjklasdhfjkd.jpg",
+  "rating": 2,
+  "rating_top": 4,
+  "ratings_count": 9,
+  "metacritic": 2,
+  "esrb_rating": "violence 12+",
+}
+ */

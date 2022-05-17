@@ -15,5 +15,5 @@ const PlataformScheme = new mongoose.Schema(
   }
 );
 
-module.exports = mongoose.model("plataform", UserScheme);
+module.exports = mongoose.model("plataform", PlataformScheme);
 
